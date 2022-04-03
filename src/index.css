@@ -19,6 +19,14 @@ body,html{
   scroll-snap-type: y mandatory;
 }
 
-
+.font-light{
+  font-weight: lighter;
+}
+.font-bold{
+  font-weight: bold;
+}
+.font-normal{
+  font-weight: normal;
+}
 
 

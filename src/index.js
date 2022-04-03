@@ -2,22 +2,13 @@ import React, { useEffect} from "react";
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Nav from './components/partial/Nav';
-import Header from './components/herosection/herosection'
-import Aboutme from './components/aboutme/Aboutme';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import $ from 'jquery';
-import anime from 'animejs/lib/anime.es.js';
-import Skills from './components/skills/Skills';
+import App from './App'
 ReactDOM.render(
   <React.StrictMode>
-    <header className=' h-screen'>
-      <Nav />
-      <Header />
-      <Aboutme />
-      <Skills />
-    </header>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
