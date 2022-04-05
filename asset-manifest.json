@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.040ec29a.css",
-    "main.js": "/static/js/main.41f177d3.js",
+    "main.css": "/static/css/main.ee93fd65.css",
+    "main.js": "/static/js/main.f9092fd5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/section2.jpg": "/static/media/section2.0d0054c1658fb5a9a272.jpg",
     "static/media/coat3.jpg": "/static/media/coat3.bb440bcf28ec808d2891.jpg",
     "static/media/home.jpg": "/static/media/home.39f8ba2eae571fc1c5a1.jpg",
     "static/media/bloaz.jpg": "/static/media/bloaz.c1d0dc04017998b15b0f.jpg",
     "static/media/suit2.jpg": "/static/media/suit2.3c2d32785e43f3970c63.jpg",
-    "static/media/fakhama3.png": "/static/media/fakhama3.8508adfe99b9cf7b8e5d.png",
     "static/media/fakhama.png": "/static/media/fakhama.a875b31647b67e84d008.png",
-    "static/media/fakhama2.png": "/static/media/fakhama2.b7db8baea9a31dfe6dae.png",
     "static/media/section.jpg": "/static/media/section.c135d2ea70dde60c4042.jpg",
     "static/media/ArbFONTS-VIP-cartoon-.ttf": "/static/media/ArbFONTS-VIP-cartoon-.0ce584dce79b58c9f1ca.ttf",
     "static/media/suit.jpg": "/static/media/suit.64b27f0921f96a3e65f7.jpg",
@@ -20,12 +18,12 @@
     "static/media/coat.jpg": "/static/media/coat.34b8d4d16c07ad7bdb5c.jpg",
     "static/media/shirt2.jpg": "/static/media/shirt2.d84043d85c689e1e7afc.jpg",
     "index.html": "/index.html",
-    "main.040ec29a.css.map": "/static/css/main.040ec29a.css.map",
-    "main.41f177d3.js.map": "/static/js/main.41f177d3.js.map",
+    "main.ee93fd65.css.map": "/static/css/main.ee93fd65.css.map",
+    "main.f9092fd5.js.map": "/static/js/main.f9092fd5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.040ec29a.css",
-    "static/js/main.41f177d3.js"
+    "static/css/main.ee93fd65.css",
+    "static/js/main.f9092fd5.js"
   ]
 }
