@@ -16,6 +16,13 @@
   font-family: 'Fredoka One', cursive;
 }
 
+.aside span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

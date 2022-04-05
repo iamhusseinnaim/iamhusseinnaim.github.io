@@ -1,0 +1,36 @@
+.aside-wrapper{
+    width: fit-content;
+    height: 300px;
+    position: fixed;
+    right: 10px;
+    top: 0%;
+    bottom: 0;
+    margin: auto;
+}
+
+.aside-wrapper li,.aside-wrapper a{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+.active-link{
+    transition: 1s color ease-in-out;
+    color: rgb(99 102 241);
+}
+
+
+.aside-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row !important;
+    height: 70px;
+    top: 0;
+    z-index: 100000;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    width: 100%;
+}

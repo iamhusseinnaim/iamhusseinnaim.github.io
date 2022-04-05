@@ -1,0 +1,1640 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.skill {
+    width: 100% !important;
+    padding: 10px;
+  }
+  
+  .skill .label {
+    margin: 10px 0 !important;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .skill-parent {
+    width: 100% !important;
+    background-color: rgba(255, 255, 255, 0.173);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .skill-parent .skill-value {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0%;
+    margin: auto;
+    background-color: attr(data-bg);
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  .skill-progress {
+    height: 70px;
+    position: relative;
+    display: flex;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    animation-name: skill;
+    animation-duration: 1s;
+    animation-direction: normal;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+  }
+  
+  .skill-value-1 {
+    animation-name: skill_1;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 1%;
+  }
+  
+  @keyframes skill_1 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 1%;
+    }
+  }
+  
+  .skill-value-2 {
+    animation-name: skill_2;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 2%;
+  }
+  
+  @keyframes skill_2 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 2%;
+    }
+  }
+  
+  .skill-value-3 {
+    animation-name: skill_3;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 3%;
+  }
+  
+  @keyframes skill_3 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 3%;
+    }
+  }
+  
+  .skill-value-4 {
+    animation-name: skill_4;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 4%;
+  }
+  
+  @keyframes skill_4 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 4%;
+    }
+  }
+  
+  .skill-value-5 {
+    animation-name: skill_5;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 5%;
+  }
+  
+  @keyframes skill_5 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 5%;
+    }
+  }
+  
+  .skill-value-6 {
+    animation-name: skill_6;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 6%;
+  }
+  
+  @keyframes skill_6 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 6%;
+    }
+  }
+  
+  .skill-value-7 {
+    animation-name: skill_7;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 7%;
+  }
+  
+  @keyframes skill_7 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 7%;
+    }
+  }
+  
+  .skill-value-8 {
+    animation-name: skill_8;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 8%;
+  }
+  
+  @keyframes skill_8 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 8%;
+    }
+  }
+  
+  .skill-value-9 {
+    animation-name: skill_9;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 9%;
+  }
+  
+  @keyframes skill_9 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 9%;
+    }
+  }
+  
+  .skill-value-10 {
+    animation-name: skill_10;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 10%;
+  }
+  
+  @keyframes skill_10 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 10%;
+    }
+  }
+  
+  .skill-value-11 {
+    animation-name: skill_11;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 11%;
+  }
+  
+  @keyframes skill_11 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 11%;
+    }
+  }
+  
+  .skill-value-12 {
+    animation-name: skill_12;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 12%;
+  }
+  
+  @keyframes skill_12 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 12%;
+    }
+  }
+  
+  .skill-value-13 {
+    animation-name: skill_13;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 13%;
+  }
+  
+  @keyframes skill_13 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 13%;
+    }
+  }
+  
+  .skill-value-14 {
+    animation-name: skill_14;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 14%;
+  }
+  
+  @keyframes skill_14 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 14%;
+    }
+  }
+  
+  .skill-value-15 {
+    animation-name: skill_15;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 15%;
+  }
+  
+  @keyframes skill_15 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 15%;
+    }
+  }
+  
+  .skill-value-16 {
+    animation-name: skill_16;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 16%;
+  }
+  
+  @keyframes skill_16 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 16%;
+    }
+  }
+  
+  .skill-value-17 {
+    animation-name: skill_17;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 17%;
+  }
+  
+  @keyframes skill_17 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 17%;
+    }
+  }
+  
+  .skill-value-18 {
+    animation-name: skill_18;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 18%;
+  }
+  
+  @keyframes skill_18 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 18%;
+    }
+  }
+  
+  .skill-value-19 {
+    animation-name: skill_19;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 19%;
+  }
+  
+  @keyframes skill_19 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 19%;
+    }
+  }
+  
+  .skill-value-20 {
+    animation-name: skill_20;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 20%;
+  }
+  
+  @keyframes skill_20 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 20%;
+    }
+  }
+  
+  .skill-value-21 {
+    animation-name: skill_21;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 21%;
+  }
+  
+  @keyframes skill_21 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 21%;
+    }
+  }
+  
+  .skill-value-22 {
+    animation-name: skill_22;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 22%;
+  }
+  
+  @keyframes skill_22 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 22%;
+    }
+  }
+  
+  .skill-value-23 {
+    animation-name: skill_23;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 23%;
+  }
+  
+  @keyframes skill_23 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 23%;
+    }
+  }
+  
+  .skill-value-24 {
+    animation-name: skill_24;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 24%;
+  }
+  
+  @keyframes skill_24 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 24%;
+    }
+  }
+  
+  .skill-value-25 {
+    animation-name: skill_25;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 25%;
+  }
+  
+  @keyframes skill_25 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 25%;
+    }
+  }
+  
+  .skill-value-26 {
+    animation-name: skill_26;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 26%;
+  }
+  
+  @keyframes skill_26 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 26%;
+    }
+  }
+  
+  .skill-value-27 {
+    animation-name: skill_27;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 27%;
+  }
+  
+  @keyframes skill_27 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 27%;
+    }
+  }
+  
+  .skill-value-28 {
+    animation-name: skill_28;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 28%;
+  }
+  
+  @keyframes skill_28 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 28%;
+    }
+  }
+  
+  .skill-value-29 {
+    animation-name: skill_29;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 29%;
+  }
+  
+  @keyframes skill_29 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 29%;
+    }
+  }
+  
+  .skill-value-30 {
+    animation-name: skill_30;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 30%;
+  }
+  
+  @keyframes skill_30 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 30%;
+    }
+  }
+  
+  .skill-value-31 {
+    animation-name: skill_31;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 31%;
+  }
+  
+  @keyframes skill_31 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 31%;
+    }
+  }
+  
+  .skill-value-32 {
+    animation-name: skill_32;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 32%;
+  }
+  
+  @keyframes skill_32 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 32%;
+    }
+  }
+  
+  .skill-value-33 {
+    animation-name: skill_33;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 33%;
+  }
+  
+  @keyframes skill_33 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 33%;
+    }
+  }
+  
+  .skill-value-34 {
+    animation-name: skill_34;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 34%;
+  }
+  
+  @keyframes skill_34 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 34%;
+    }
+  }
+  
+  .skill-value-35 {
+    animation-name: skill_35;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 35%;
+  }
+  
+  @keyframes skill_35 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 35%;
+    }
+  }
+  
+  .skill-value-36 {
+    animation-name: skill_36;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 36%;
+  }
+  
+  @keyframes skill_36 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 36%;
+    }
+  }
+  
+  .skill-value-37 {
+    animation-name: skill_37;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 37%;
+  }
+  
+  @keyframes skill_37 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 37%;
+    }
+  }
+  
+  .skill-value-38 {
+    animation-name: skill_38;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 38%;
+  }
+  
+  @keyframes skill_38 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 38%;
+    }
+  }
+  
+  .skill-value-39 {
+    animation-name: skill_39;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 39%;
+  }
+  
+  @keyframes skill_39 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 39%;
+    }
+  }
+  
+  .skill-value-40 {
+    animation-name: skill_40;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 40%;
+  }
+  
+  @keyframes skill_40 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 40%;
+    }
+  }
+  
+  .skill-value-41 {
+    animation-name: skill_41;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 41%;
+  }
+  
+  @keyframes skill_41 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 41%;
+    }
+  }
+  
+  .skill-value-42 {
+    animation-name: skill_42;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 42%;
+  }
+  
+  @keyframes skill_42 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 42%;
+    }
+  }
+  
+  .skill-value-43 {
+    animation-name: skill_43;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 43%;
+  }
+  
+  @keyframes skill_43 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 43%;
+    }
+  }
+  
+  .skill-value-44 {
+    animation-name: skill_44;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 44%;
+  }
+  
+  @keyframes skill_44 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 44%;
+    }
+  }
+  
+  .skill-value-45 {
+    animation-name: skill_45;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 45%;
+  }
+  
+  @keyframes skill_45 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 45%;
+    }
+  }
+  
+  .skill-value-46 {
+    animation-name: skill_46;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 46%;
+  }
+  
+  @keyframes skill_46 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 46%;
+    }
+  }
+  
+  .skill-value-47 {
+    animation-name: skill_47;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 47%;
+  }
+  
+  @keyframes skill_47 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 47%;
+    }
+  }
+  
+  .skill-value-48 {
+    animation-name: skill_48;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 48%;
+  }
+  
+  @keyframes skill_48 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 48%;
+    }
+  }
+  
+  .skill-value-49 {
+    animation-name: skill_49;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 49%;
+  }
+  
+  @keyframes skill_49 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 49%;
+    }
+  }
+  
+  .skill-value-50 {
+    animation-name: skill_50;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 50%;
+  }
+  
+  @keyframes skill_50 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 50%;
+    }
+  }
+  
+  .skill-value-51 {
+    animation-name: skill_51;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 51%;
+  }
+  
+  @keyframes skill_51 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 51%;
+    }
+  }
+  
+  .skill-value-52 {
+    animation-name: skill_52;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 52%;
+  }
+  
+  @keyframes skill_52 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 52%;
+    }
+  }
+  
+  .skill-value-53 {
+    animation-name: skill_53;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 53%;
+  }
+  
+  @keyframes skill_53 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 53%;
+    }
+  }
+  
+  .skill-value-54 {
+    animation-name: skill_54;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 54%;
+  }
+  
+  @keyframes skill_54 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 54%;
+    }
+  }
+  
+  .skill-value-55 {
+    animation-name: skill_55;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 55%;
+  }
+  
+  @keyframes skill_55 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 55%;
+    }
+  }
+  
+  .skill-value-56 {
+    animation-name: skill_56;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 56%;
+  }
+  
+  @keyframes skill_56 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 56%;
+    }
+  }
+  
+  .skill-value-57 {
+    animation-name: skill_57;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 57%;
+  }
+  
+  @keyframes skill_57 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 57%;
+    }
+  }
+  
+  .skill-value-58 {
+    animation-name: skill_58;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 58%;
+  }
+  
+  @keyframes skill_58 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 58%;
+    }
+  }
+  
+  .skill-value-59 {
+    animation-name: skill_59;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 59%;
+  }
+  
+  @keyframes skill_59 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 59%;
+    }
+  }
+  
+  .skill-value-60 {
+    animation-name: skill_60;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 60%;
+  }
+  
+  @keyframes skill_60 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 60%;
+    }
+  }
+  
+  .skill-value-61 {
+    animation-name: skill_61;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 61%;
+  }
+  
+  @keyframes skill_61 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 61%;
+    }
+  }
+  
+  .skill-value-62 {
+    animation-name: skill_62;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 62%;
+  }
+  
+  @keyframes skill_62 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 62%;
+    }
+  }
+  
+  .skill-value-63 {
+    animation-name: skill_63;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 63%;
+  }
+  
+  @keyframes skill_63 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 63%;
+    }
+  }
+  
+  .skill-value-64 {
+    animation-name: skill_64;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 64%;
+  }
+  
+  @keyframes skill_64 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 64%;
+    }
+  }
+  
+  .skill-value-65 {
+    animation-name: skill_65;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 65%;
+  }
+  
+  @keyframes skill_65 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 65%;
+    }
+  }
+  
+  .skill-value-66 {
+    animation-name: skill_66;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 66%;
+  }
+  
+  @keyframes skill_66 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 66%;
+    }
+  }
+  
+  .skill-value-67 {
+    animation-name: skill_67;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 67%;
+  }
+  
+  @keyframes skill_67 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 67%;
+    }
+  }
+  
+  .skill-value-68 {
+    animation-name: skill_68;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 68%;
+  }
+  
+  @keyframes skill_68 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 68%;
+    }
+  }
+  
+  .skill-value-69 {
+    animation-name: skill_69;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 69%;
+  }
+  
+  @keyframes skill_69 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 69%;
+    }
+  }
+  
+  .skill-value-70 {
+    animation-name: skill_70;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 70%;
+  }
+  
+  @keyframes skill_70 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 70%;
+    }
+  }
+  
+  .skill-value-71 {
+    animation-name: skill_71;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 71%;
+  }
+  
+  @keyframes skill_71 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 71%;
+    }
+  }
+  
+  .skill-value-72 {
+    animation-name: skill_72;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 72%;
+  }
+  
+  @keyframes skill_72 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 72%;
+    }
+  }
+  
+  .skill-value-73 {
+    animation-name: skill_73;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 73%;
+  }
+  
+  @keyframes skill_73 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 73%;
+    }
+  }
+  
+  .skill-value-74 {
+    animation-name: skill_74;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 74%;
+  }
+  
+  @keyframes skill_74 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 74%;
+    }
+  }
+  
+  .skill-value-75 {
+    animation-name: skill_75;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 75%;
+  }
+  
+  @keyframes skill_75 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 75%;
+    }
+  }
+  
+  .skill-value-76 {
+    animation-name: skill_76;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 76%;
+  }
+  
+  @keyframes skill_76 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 76%;
+    }
+  }
+  
+  .skill-value-77 {
+    animation-name: skill_77;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 77%;
+  }
+  
+  @keyframes skill_77 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 77%;
+    }
+  }
+  
+  .skill-value-78 {
+    animation-name: skill_78;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 78%;
+  }
+  
+  @keyframes skill_78 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 78%;
+    }
+  }
+  
+  .skill-value-79 {
+    animation-name: skill_79;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 79%;
+  }
+  
+  @keyframes skill_79 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 79%;
+    }
+  }
+  
+  .skill-value-80 {
+    animation-name: skill_80;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 80%;
+  }
+  
+  @keyframes skill_80 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  
+  .skill-value-81 {
+    animation-name: skill_81;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 81%;
+  }
+  
+  @keyframes skill_81 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 81%;
+    }
+  }
+  
+  .skill-value-82 {
+    animation-name: skill_82;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 82%;
+  }
+  
+  @keyframes skill_82 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 82%;
+    }
+  }
+  
+  .skill-value-83 {
+    animation-name: skill_83;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 83%;
+  }
+  
+  @keyframes skill_83 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 83%;
+    }
+  }
+  
+  .skill-value-84 {
+    animation-name: skill_84;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 84%;
+  }
+  
+  @keyframes skill_84 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 84%;
+    }
+  }
+  
+  .skill-value-85 {
+    animation-name: skill_85;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 85%;
+  }
+  
+  @keyframes skill_85 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 85%;
+    }
+  }
+  
+  .skill-value-86 {
+    animation-name: skill_86;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 86%;
+  }
+  
+  @keyframes skill_86 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 86%;
+    }
+  }
+  
+  .skill-value-87 {
+    animation-name: skill_87;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 87%;
+  }
+  
+  @keyframes skill_87 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 87%;
+    }
+  }
+  
+  .skill-value-88 {
+    animation-name: skill_88;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 88%;
+  }
+  
+  @keyframes skill_88 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 88%;
+    }
+  }
+  
+  .skill-value-89 {
+    animation-name: skill_89;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 89%;
+  }
+  
+  @keyframes skill_89 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 89%;
+    }
+  }
+  
+  .skill-value-90 {
+    animation-name: skill_90;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 90%;
+  }
+  
+  @keyframes skill_90 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 90%;
+    }
+  }
+  
+  .skill-value-91 {
+    animation-name: skill_91;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 91%;
+  }
+  
+  @keyframes skill_91 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 91%;
+    }
+  }
+  
+  .skill-value-92 {
+    animation-name: skill_92;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 92%;
+  }
+  
+  @keyframes skill_92 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 92%;
+    }
+  }
+  
+  .skill-value-93 {
+    animation-name: skill_93;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 93%;
+  }
+  
+  @keyframes skill_93 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 93%;
+    }
+  }
+  
+  .skill-value-94 {
+    animation-name: skill_94;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 94%;
+  }
+  
+  @keyframes skill_94 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 94%;
+    }
+  }
+  
+  .skill-value-95 {
+    animation-name: skill_95;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 95%;
+  }
+  
+  @keyframes skill_95 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 95%;
+    }
+  }
+  
+  .skill-value-96 {
+    animation-name: skill_96;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 96%;
+  }
+  
+  @keyframes skill_96 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 96%;
+    }
+  }
+  
+  .skill-value-97 {
+    animation-name: skill_97;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 97%;
+  }
+  
+  @keyframes skill_97 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 97%;
+    }
+  }
+  
+  .skill-value-98 {
+    animation-name: skill_98;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 98%;
+  }
+  
+  @keyframes skill_98 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 98%;
+    }
+  }
+  
+  .skill-value-99 {
+    animation-name: skill_99;
+    animation-duration: 1s;
+    animation-direction: normal;
+    width: 99%;
+  }
+  
+  @keyframes skill_99 {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 99%;
+    }
+  }
+  
